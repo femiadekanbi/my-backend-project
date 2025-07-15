@@ -26,3 +26,6 @@ app.get('/about', (req, res) => {
 app.get('/contact', (req, res) => {
  res.send { 'Contact us at contact@example.com');
 })
+app.get('/login', (req, res) => {
+ res.send('login page coming soon, ');
+})
