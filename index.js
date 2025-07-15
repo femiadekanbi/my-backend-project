@@ -29,3 +29,7 @@ app.get('/contact', (req, res) => {
 app.get('/login', (req, res) => {
  res.send('login page coming soon, ');
 })
+node_modules/
+.env
+.DS_Store
+*.log
