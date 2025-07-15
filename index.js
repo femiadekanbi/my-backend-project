@@ -23,3 +23,6 @@ app.listen(PORT, () => {
 app.get('/about', (req, res) => {
   res.send('This is the About page.');
 });
+app.get('/contact', (req, res) => {
+ res.send { 'Contact us at contact@example.com');
+})
